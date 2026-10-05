@@ -6,7 +6,7 @@
     <title>Manuais de Serviço - Mercedes W124 / M104</title>
     <!-- Carregando Bootstrap 5 via CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Ícones do Bootstrap para deixar mais bonito -->
+    <!-- Ícones do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
         body { background-color: #f8f9fa; }
@@ -29,6 +29,17 @@
             color: #0369a1;
             font-weight: bold;
         }
+        
+        /* Estilos do Mecânico Virtual */
+        #chat-widget { position: fixed; bottom: 20px; right: 20px; z-index: 1050; }
+        #chat-window { width: 350px; height: 500px; display: none; flex-direction: column; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border-radius: 12px; background: #fff; overflow: hidden; }
+        #chat-header { background: #1e293b; color: white; padding: 15px; font-weight: bold; }
+        #chat-messages { flex: 1; padding: 15px; overflow-y: auto; background: #f8f9fa; display: flex; flex-direction: column; gap: 10px; }
+        .msg-user { align-self: flex-end; background: #0369a1; color: white; padding: 10px 14px; border-radius: 15px 15px 0 15px; max-width: 85%; font-size: 0.95em; }
+        .msg-bot { align-self: flex-start; background: #e2e8f0; color: #1e293b; padding: 10px 14px; border-radius: 15px 15px 15px 0; max-width: 85%; font-size: 0.95em; }
+        #chat-input-area { padding: 10px; background: white; border-top: 1px solid #dee2e6; display: flex; gap: 8px; }
+        .btn-robot { background: #e0f2fe; color: #0369a1; border: none; transition: 0.2s; }
+        .btn-robot:hover { background: #bae6fd; color: #0284c7; }
     </style>
 </head>
 <body>
@@ -76,10 +87,29 @@
         </div>
     </div>
 
-    <!-- Carregando os scripts do Bootstrap (necessário para a sanfona funcionar) -->
+    <!-- Chatbot Flutuante -->
+    <div id="chat-widget">
+        <div id="chat-window">
+            <div id="chat-header" class="d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-robot"></i> Mecânico Virtual (IA)</span>
+                <button class="btn-close btn-close-white" onclick="toggleChat()"></button>
+            </div>
+            <div id="chat-messages">
+                <div class="msg-bot">Olá! Escolha um manual clicando no ícone do robô e faça-me uma pergunta sobre ele.</div>
+            </div>
+            <div id="chat-input-area">
+                <input type="text" id="chat-input" class="form-control" placeholder="Ex: Qual o torque do parafuso?" onkeypress="if(event.key === 'Enter') enviarMensagem()">
+                <button class="btn btn-primary" onclick="enviarMensagem()"><i class="bi bi-send"></i></button>
+            </div>
+        </div>
+        <button id="chat-toggle-btn" class="btn btn-primary rounded-circle shadow d-flex justify-content-center align-items-center" style="width: 60px; height: 60px; float: right; margin-top: 10px;" onclick="toggleChat()">
+            <i class="bi bi-robot fs-3"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- Script da Lógica da Página -->
     <script>
         let manuais = [];
         let manuaisAgrupados = {};
@@ -111,14 +141,12 @@
             const container = document.getElementById('visaoCategorias');
             container.innerHTML = '';
             
-            // Ordena as categorias em ordem alfabética (ou por número)
             const categoriasOrdenadas = Object.keys(manuaisAgrupados).sort();
 
             categoriasOrdenadas.forEach((categoria, index) => {
                 const listaManuais = manuaisAgrupados[categoria];
                 const idCollapse = `collapse-${index}`;
                 
-                // Monta a lista de PDFs dentro desta categoria
                 let itensHTML = '';
                 listaManuais.forEach(pdf => {
                     itensHTML += `
@@ -127,12 +155,16 @@
                                 <span class="badge bg-secondary me-2">${pdf.nome_arquivo}</span>
                                 <span class="text-dark">${pdf.titulo_descritivo}</span>
                             </div>
-                            <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                            <div class="d-flex align-items-center gap-3">
+                                <button class="btn btn-sm btn-robot shadow-sm" onclick="event.preventDefault(); abrirChatParaPdf('${pdf.caminho}', '${pdf.titulo_descritivo}')" title="Analisar com IA">
+                                    <i class="bi bi-stars"></i> IA
+                                </button>
+                                <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                            </div>
                         </a>
                     `;
                 });
 
-                // Monta o item da sanfona (Categoria)
                 const categoriaHTML = `
                     <div class="accordion-item border-0 border-bottom">
                         <h2 class="accordion-header">
@@ -163,7 +195,6 @@
             const listaResultados = document.getElementById('listaResultados');
             const noResults = document.getElementById('noResults');
 
-            // Se a barra de pesquisa estiver vazia, volta para as pastas
             if (termo === "") {
                 visaoCategorias.classList.remove('d-none');
                 visaoPesquisa.classList.add('d-none');
@@ -171,11 +202,9 @@
                 return;
             }
 
-            // Modo Pesquisa ativado
             visaoCategorias.classList.add('d-none');
             visaoPesquisa.classList.remove('d-none');
             
-            // Filtra os arquivos e desenha na lista
             const filtrados = manuais.filter(m => m.tags.includes(termo));
             listaResultados.innerHTML = '';
 
@@ -192,13 +221,89 @@
                                 <span class="badge bg-secondary me-2">${pdf.nome_arquivo}</span>
                                 <span class="text-dark fw-medium">${pdf.titulo_descritivo}</span>
                             </div>
-                            <i class="bi bi-file-earmark-pdf text-danger fs-4"></i>
+                            <div class="d-flex align-items-center gap-3">
+                                <button class="btn btn-sm btn-robot shadow-sm" onclick="event.preventDefault(); abrirChatParaPdf('${pdf.caminho}', '${pdf.titulo_descritivo}')" title="Analisar com IA">
+                                    <i class="bi bi-stars"></i> IA
+                                </button>
+                                <i class="bi bi-file-earmark-pdf text-danger fs-4"></i>
+                            </div>
                         </a>
                     `);
                 });
             }
         }
-    </script>
 
+        // 5. Lógica do Mecânico Virtual (IA)
+        let pdfAtivoParaChat = "";
+        let nomePdfAtivo = "";
+
+        function toggleChat() {
+            const chatWindow = document.getElementById('chat-window');
+            chatWindow.style.display = chatWindow.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        function abrirChatParaPdf(urlPdf, nomePdf) {
+            // Monta o link absoluto para o n8n conseguir descarregar o ficheiro do GitHub Pages
+            const linkAbsoluto = window.location.href.split('index.html')[0].replace(/\/$/, '') + '/' + urlPdf;
+            
+            pdfAtivoParaChat = linkAbsoluto;
+            nomePdfAtivo = nomePdf;
+
+            const chatWindow = document.getElementById('chat-window');
+            if (chatWindow.style.display !== 'flex') toggleChat();
+            
+            adicionarMensagemBot(`Manual <br><b>${nomePdf}</b><br> selecionado! O que quer saber sobre ele?`);
+        }
+        
+        async function enviarMensagem() {
+            const input = document.getElementById('chat-input');
+            const mensagem = input.value.trim();
+            if (!mensagem) return;
+
+            if (!pdfAtivoParaChat) {
+                adicionarMensagemBot("Por favor, selecione um manual clicando no ícone 'IA' na lista antes de fazer uma pergunta.");
+                input.value = "";
+                return;
+            }
+
+            adicionarMensagemUser(mensagem);
+            input.value = "";
+            adicionarMensagemBot("<i><i class='bi bi-hourglass-split'></i> A ler o manual...</i>", "loading-msg");
+
+            try {
+                // Link oficial de produção do seu n8n Cloud
+                const webhookUrl = "https://hsperovano.app.n8n.cloud/webhook/pdf-question"; 
+
+                const response = await fetch(webhookUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question: mensagem,
+                        pdf_url: pdfAtivoParaChat
+                    })
+                });
+
+                const data = await response.text(); 
+                document.getElementById('loading-msg').remove();
+                adicionarMensagemBot(data);
+
+            } catch (error) {
+                document.getElementById('loading-msg').remove();
+                adicionarMensagemBot("Erro de comunicação com o servidor. O fluxo do n8n está ativo?");
+            }
+        }
+
+        function adicionarMensagemUser(texto) {
+            const painel = document.getElementById('chat-messages');
+            painel.insertAdjacentHTML('beforeend', `<div class="msg-user">${texto}</div>`);
+            painel.scrollTop = painel.scrollHeight;
+        }
+
+        function adicionarMensagemBot(texto, id = "") {
+            const painel = document.getElementById('chat-messages');
+            painel.insertAdjacentHTML('beforeend', `<div class="msg-bot" ${id ? `id="${id}"` : ''}>${texto}</div>`);
+            painel.scrollTop = painel.scrollHeight;
+        }
+    </script>
 </body>
 </html>
