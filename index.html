@@ -250,7 +250,6 @@
         }
 
         function abrirChatParaPdf(urlPdf, nomePdf) {
-            // Monta o link absoluto para o n8n conseguir descarregar o ficheiro do GitHub Pages
             const linkAbsoluto = window.location.href.split('index.html')[0].replace(/\/$/, '') + '/' + urlPdf;
             
             pdfAtivoParaChat = linkAbsoluto;
@@ -290,11 +289,25 @@
                     })
                 });
 
-                // Lê o pacote JSON enviado pelo n8n
-                const data = await response.json(); 
-                
-                // Extrai apenas o texto que está dentro da chave "answer"
-                const respostaLimpa = data.answer || data.text || JSON.stringify(data);
+                // 1. Pega a resposta bruta exatamente como o n8n a envia (texto puro)
+                const rawText = await response.text();
+                let respostaLimpa = rawText;
+
+                // 2. Tenta forçar a extração se vier em formato JSON
+                try {
+                    const jsonData = JSON.parse(rawText);
+                    if (jsonData.answer) {
+                        respostaLimpa = jsonData.answer;
+                    } else if (jsonData.text) {
+                        respostaLimpa = jsonData.text;
+                    } else if (Array.isArray(jsonData) && jsonData[0].answer) {
+                        respostaLimpa = jsonData[0].answer;
+                    } else if (Array.isArray(jsonData) && jsonData[0].text) {
+                        respostaLimpa = jsonData[0].text;
+                    }
+                } catch (e) {
+                    // Se der erro no parse, a resposta já era texto limpo, mantém o rawText
+                }
 
                 document.getElementById('loading-msg').remove();
                 adicionarMensagemBot(respostaLimpa);
