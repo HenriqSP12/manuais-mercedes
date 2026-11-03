@@ -6295,9 +6295,9 @@
     {
         "caminho": "Manuais_M104/86.3.pdf",
         "nome_arquivo": "86.3.pdf",
-        "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Grupo 86.3 (título a revisar)",
-        "tags": "86.3.pdf manutenção geral e fluidos grupo 86.3 (título a revisar)"
+        "categoria": "Componentes Diversos",
+        "titulo_descritivo": "Caixa porta-objetos no banco do motorista (instalação)",
+        "tags": "86.3.pdf componentes diversos caixa porta-objetos no banco do motorista (instalação)"
     },
     {
         "caminho": "Manuais_M104/88-100.pdf",
@@ -7021,13 +7021,6 @@
         "tags": "data_link.pdf manutenção geral e fluidos 00-b.6/1 electrical troubleshooting manual · model 124 · volume 1 · 10/92model 124"
     },
     {
-        "caminho": "Manuais_M104/E-Class_Options.pdf",
-        "nome_arquivo": "E-Class_Options.pdf",
-        "categoria": "Componentes Diversos",
-        "titulo_descritivo": "Anbauteile / Add-on parts",
-        "tags": "e-class_options.pdf componentes diversos anbauteile / add-on parts"
-    },
-    {
         "caminho": "Manuais_M104/ETM.pdf",
         "nome_arquivo": "ETM.pdf",
         "categoria": "Manutenção Geral e Fluidos",
@@ -7409,42 +7402,35 @@
         "caminho": "Manuais_W124/E-Class_Options.pdf",
         "nome_arquivo": "E-Class_Options.pdf",
         "categoria": "W124 - Documentação Geral",
-        "titulo_descritivo": "Opcionais e acessórios da Classe E",
-        "tags": "e-class_options.pdf w124 - documentação geral opcionais e acessórios da classe e"
+        "titulo_descritivo": "Acessórios e peças de complemento da Classe E (catálogo)",
+        "tags": "e-class_options.pdf w124 - documentação geral acessórios e peças de complemento da classe e (catálogo)"
     },
     {
         "caminho": "Manuais_W124/MY1992w124intro.pdf",
         "nome_arquivo": "MY1992w124intro.pdf",
         "categoria": "W124 - Documentação Geral",
-        "titulo_descritivo": "Introdução ao W124 - ano-modelo 1992",
-        "tags": "my1992w124intro.pdf w124 - documentação geral introdução ao w124 - ano-modelo 1992"
+        "titulo_descritivo": "Introdução ao serviço - ano-modelo 1992 (modelos 124, 129 e 201)",
+        "tags": "my1992w124intro.pdf w124 - documentação geral introdução ao serviço - ano-modelo 1992 (modelos 124, 129 e 201)"
     },
     {
         "caminho": "Manuais_W124/MY1992w124.03intro.pdf",
         "nome_arquivo": "MY1992w124.03intro.pdf",
         "categoria": "W124 - Documentação Geral",
-        "titulo_descritivo": "Introdução ao W124 - ano-modelo 1992 (parte 03)",
-        "tags": "my1992w124.03intro.pdf w124 - documentação geral introdução ao w124 - ano-modelo 1992 (parte 03)"
+        "titulo_descritivo": "Introdução ao serviço - ano-modelo 1992, 400E/500E (124.034/036)",
+        "tags": "my1992w124.03intro.pdf w124 - documentação geral introdução ao serviço - ano-modelo 1992, 400e/500e (124.034/036)"
     },
     {
         "caminho": "Manuais_W124/PartsList2.pdf",
         "nome_arquivo": "PartsList2.pdf",
         "categoria": "W124 - Documentação Geral",
-        "titulo_descritivo": "Catálogo de peças W124 (parte 2)",
-        "tags": "partslist2.pdf w124 - documentação geral catálogo de peças w124 (parte 2)"
+        "titulo_descritivo": "Lista de peças e preços de funilaria - 260E a 500E e 300CE (1986-92)",
+        "tags": "partslist2.pdf w124 - documentação geral lista de peças e preços de funilaria - 260e a 500e e 300ce (1986-92)"
     },
     {
         "caminho": "Manuais_W124/PartsList_CE.pdf",
         "nome_arquivo": "PartsList_CE.pdf",
         "categoria": "W124 - Documentação Geral",
-        "titulo_descritivo": "Catálogo de peças W124 Coupé (CE)",
-        "tags": "partslist_ce.pdf w124 - documentação geral catálogo de peças w124 coupé (ce)"
-    },
-    {
-        "caminho": "Manuais_W124/ReadMe.pdf",
-        "nome_arquivo": "ReadMe.pdf",
-        "categoria": "W124 - Documentação Geral",
-        "titulo_descritivo": "Leia-me do acervo W124",
-        "tags": "readme.pdf w124 - documentação geral leia-me do acervo w124"
+        "titulo_descritivo": "Lista de peças e preços de funilaria - 300CE/E320 Coupé e Cabriolet (1988-95)",
+        "tags": "partslist_ce.pdf w124 - documentação geral lista de peças e preços de funilaria - 300ce/e320 coupé e cabriolet (1988-95)"
     }
 ]
