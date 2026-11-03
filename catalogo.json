@@ -24,15 +24,15 @@
         "caminho": "Manuais_M104/00.139Lubing_hood_latchesSI.pdf",
         "nome_arquivo": "00.139Lubing_hood_latchesSI.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "DATE:ALL MERCEDES-BENZ PASSENGER CAR DEALERS",
-        "tags": "00.139lubing_hood_latchessi.pdf manutenção geral e fluidos date:all mercedes-benz passenger car dealers"
+        "titulo_descritivo": "Lubrificação das travas do capô (Informativo de Serviço)",
+        "tags": "00.139lubing_hood_latchessi.pdf manutenção geral e fluidos lubrificação das travas do capô (informativo de serviço)"
     },
     {
         "caminho": "Manuais_M104/00.57EngineOilLevelSI.pdf",
         "nome_arquivo": "00.57EngineOilLevelSI.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "TO: ALL MERCEDES-BENZ PASSENGER CAR DEALERS",
-        "tags": "00.57engineoillevelsi.pdf manutenção geral e fluidos to: all mercedes-benz passenger car dealers"
+        "titulo_descritivo": "Nível de óleo do motor (Informativo de Serviço)",
+        "tags": "00.57engineoillevelsi.pdf manutenção geral e fluidos nível de óleo do motor (informativo de serviço)"
     },
     {
         "caminho": "Manuais_M104/01-0010.pdf",
@@ -2354,9 +2354,9 @@
     {
         "caminho": "Manuais_M104/27.1trans_cooler2.pdf",
         "nome_arquivo": "27.1trans_cooler2.pdf",
-        "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Copyright DaimlerChrysler AG  29.01.2003 CD-Ausgabe G/05/02 Will not be recorded by Modification services Page 2",
-        "tags": "27.1trans_cooler2.pdf manutenção geral e fluidos copyright daimlerchrysler ag  29.01.2003 cd-ausgabe g/05/02 will not be recorded by modification services page 2"
+        "categoria": "Transmissão",
+        "titulo_descritivo": "Radiador de óleo da transmissão",
+        "tags": "27.1trans_cooler2.pdf transmissão radiador de óleo da transmissão"
     },
     {
         "caminho": "Manuais_M104/30-0010.pdf",
@@ -2905,18 +2905,18 @@
         "tags": "33-0526.pdf eixo dianteiro substituição do apoio do braço oscilante"
     },
     {
-        "caminho": "Manuais_M104/33-0660%20Replacing%20rubber%20bellows.pdf",
-        "nome_arquivo": "33-0660%20Replacing%20rubber%20bellows.pdf",
+        "caminho": "Manuais_M104/33-0660_Replacing_rubber_bellows.pdf",
+        "nome_arquivo": "33-0660_Replacing_rubber_bellows.pdf",
         "categoria": "Eixo Dianteiro",
         "titulo_descritivo": "Substituição de foles do eixo dianteiro",
-        "tags": "33-0660%20replacing%20rubber%20bellows.pdf eixo dianteiro substituição de foles do eixo dianteiro"
+        "tags": "33-0660_replacing_rubber_bellows.pdf eixo dianteiro substituição de foles do eixo dianteiro"
     },
     {
-        "caminho": "Manuais_M104/33-260%20Remove%20Front%20Axle%20Shafts.pdf",
-        "nome_arquivo": "33-260%20Remove%20Front%20Axle%20Shafts.pdf",
+        "caminho": "Manuais_M104/33-260_Remove_Front_Axle_Shafts.pdf",
+        "nome_arquivo": "33-260_Remove_Front_Axle_Shafts.pdf",
         "categoria": "Eixo Dianteiro",
         "titulo_descritivo": "Remoção e Instalação de Semi-eixos Dianteiros",
-        "tags": "33-260%20remove%20front%20axle%20shafts.pdf eixo dianteiro remoção e instalação de semi-eixos dianteiros"
+        "tags": "33-260_remove_front_axle_shafts.pdf eixo dianteiro remoção e instalação de semi-eixos dianteiros"
     },
     {
         "caminho": "Manuais_M104/3310.pdf",
@@ -3335,8 +3335,8 @@
         "caminho": "Manuais_M104/40.20.42bVehicle_alignment.pdf",
         "nome_arquivo": "40.20.42bVehicle_alignment.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Date: October 2004",
-        "tags": "40.20.42bvehicle_alignment.pdf manutenção geral e fluidos date: october 2004"
+        "titulo_descritivo": "Alinhamento do veículo",
+        "tags": "40.20.42bvehicle_alignment.pdf manutenção geral e fluidos alinhamento do veículo"
     },
     {
         "caminho": "Manuais_M104/40.30_AMGwheel.pdf",
@@ -4238,8 +4238,8 @@
         "caminho": "Manuais_M104/4MATIC_DTCs.pdf",
         "nome_arquivo": "4MATIC_DTCs.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "1) Observe Preparation for Test, See: Test Programs (ETP, HTP, MTP)\\ETP (Electrical Test Program)\\Preparation For",
-        "tags": "4matic_dtcs.pdf manutenção geral e fluidos 1) observe preparation for test, see: test programs (etp, htp, mtp)\\etp (electrical test program)\\preparation for"
+        "titulo_descritivo": "Códigos de falha (DTC) do sistema 4MATIC",
+        "tags": "4matic_dtcs.pdf manutenção geral e fluidos códigos de falha (dtc) do sistema 4matic"
     },
     {
         "caminho": "Manuais_M104/5152_Radio.pdf",
@@ -4536,18 +4536,18 @@
         "tags": "54-6940.pdf componentes diversos controlo eletrónico de brilho da instrumentação"
     },
     {
-        "caminho": "Manuais_M104/54.40aJump%20start.pdf",
-        "nome_arquivo": "54.40aJump%20start.pdf",
+        "caminho": "Manuais_M104/54.40aJump_start.pdf",
+        "nome_arquivo": "54.40aJump_start.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "TO: OUR MERCEDES-BENZ PASSENGER CAR DEALERS",
-        "tags": "54.40ajump%20start.pdf manutenção geral e fluidos to: our mercedes-benz passenger car dealers"
+        "titulo_descritivo": "Partida com bateria auxiliar (chupeta)",
+        "tags": "54.40ajump_start.pdf manutenção geral e fluidos partida com bateria auxiliar (chupeta)"
     },
     {
         "caminho": "Manuais_M104/54.6LCD_temp_install.pdf",
         "nome_arquivo": "54.6LCD_temp_install.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Copyright DaimlerChrysler AG  09.01.2003 CD-Ausgabe G/05/02 Will not be recorded by Modification services Page 1",
-        "tags": "54.6lcd_temp_install.pdf manutenção geral e fluidos copyright daimlerchrysler ag  09.01.2003 cd-ausgabe g/05/02 will not be recorded by modification services page 1"
+        "titulo_descritivo": "Instalação do display LCD de temperatura",
+        "tags": "54.6lcd_temp_install.pdf manutenção geral e fluidos instalação do display lcd de temperatura"
     },
     {
         "caminho": "Manuais_M104/5410.pdf",
@@ -4574,8 +4574,8 @@
         "caminho": "Manuais_M104/60.13DentlessPaint.pdf",
         "nome_arquivo": "60.13DentlessPaint.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Date: March 18, 2004",
-        "tags": "60.13dentlesspaint.pdf manutenção geral e fluidos date: march 18, 2004"
+        "titulo_descritivo": "Reparo de amassados sem pintura (martelinho de ouro)",
+        "tags": "60.13dentlesspaint.pdf manutenção geral e fluidos reparo de amassados sem pintura (martelinho de ouro)"
     },
     {
         "caminho": "Manuais_M104/6030.pdf",
@@ -5047,11 +5047,11 @@
         "tags": "72-365.pdf componentes diversos remoção e instalação dos puxadores da porta da bagageira"
     },
     {
-        "caminho": "Manuais_M104/72.14Door_interior%20trim_components.pdf",
-        "nome_arquivo": "72.14Door_interior%20trim_components.pdf",
+        "caminho": "Manuais_M104/72.14Door_interior_trim_components.pdf",
+        "nome_arquivo": "72.14Door_interior_trim_components.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Date: April 1998",
-        "tags": "72.14door_interior%20trim_components.pdf manutenção geral e fluidos date: april 1998"
+        "titulo_descritivo": "Componentes do forro interno da porta",
+        "tags": "72.14door_interior_trim_components.pdf manutenção geral e fluidos componentes do forro interno da porta"
     },
     {
         "caminho": "Manuais_M104/7220.pdf",
@@ -5820,15 +5820,15 @@
         "caminho": "Manuais_M104/82.69bCD_changer.pdf",
         "nome_arquivo": "82.69bCD_changer.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "TO: OUR MERCEDES-BENZ PASSENGER CAR DEALERS",
-        "tags": "82.69bcd_changer.pdf manutenção geral e fluidos to: our mercedes-benz passenger car dealers"
+        "titulo_descritivo": "Trocador de CDs",
+        "tags": "82.69bcd_changer.pdf manutenção geral e fluidos trocador de cds"
     },
     {
         "caminho": "Manuais_M104/82.81headlamp_lens_bonding.pdf",
         "nome_arquivo": "82.81headlamp_lens_bonding.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "TO: OUR MERCEDES-BENZ PASSENGER CAR DEALERS",
-        "tags": "82.81headlamp_lens_bonding.pdf manutenção geral e fluidos to: our mercedes-benz passenger car dealers"
+        "titulo_descritivo": "Colagem da lente do farol",
+        "tags": "82.81headlamp_lens_bonding.pdf manutenção geral e fluidos colagem da lente do farol"
     },
     {
         "caminho": "Manuais_M104/8210.pdf",
@@ -6225,9 +6225,9 @@
     {
         "caminho": "Manuais_M104/83.83r134aSI.pdf",
         "nome_arquivo": "83.83r134aSI.pdf",
-        "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "TO: ALL MERCEDES-BENZ PASSENGER CAR DEALERS",
-        "tags": "83.83r134asi.pdf manutenção geral e fluidos to: all mercedes-benz passenger car dealers"
+        "categoria": "Ar Condicionado",
+        "titulo_descritivo": "Ar-condicionado com gás R134a (Informativo de Serviço)",
+        "tags": "83.83r134asi.pdf ar condicionado ar-condicionado com gás r134a (informativo de serviço)"
     },
     {
         "caminho": "Manuais_M104/8312.pdf",
@@ -6282,8 +6282,8 @@
         "caminho": "Manuais_M104/86.1fireExt.pdf",
         "nome_arquivo": "86.1fireExt.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Copyright DaimlerChrysler AG  21.09.2004 CD-Ausgabe G/05/02 Will not be recorded by Modification ser vices Page 2",
-        "tags": "86.1fireext.pdf manutenção geral e fluidos copyright daimlerchrysler ag  21.09.2004 cd-ausgabe g/05/02 will not be recorded by modification ser vices page 2"
+        "titulo_descritivo": "Extintor de incêndio",
+        "tags": "86.1fireext.pdf manutenção geral e fluidos extintor de incêndio"
     },
     {
         "caminho": "Manuais_M104/86.2.pdf",
@@ -6296,8 +6296,8 @@
         "caminho": "Manuais_M104/86.3.pdf",
         "nome_arquivo": "86.3.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "Copyright DaimlerChrysler AG  21.09.2004 CD-Ausgabe G/05/02 Will not be recorded by Modification ser vices Page 2",
-        "tags": "86.3.pdf manutenção geral e fluidos copyright daimlerchrysler ag  21.09.2004 cd-ausgabe g/05/02 will not be recorded by modification ser vices page 2"
+        "titulo_descritivo": "Grupo 86.3 (título a revisar)",
+        "tags": "86.3.pdf manutenção geral e fluidos grupo 86.3 (título a revisar)"
     },
     {
         "caminho": "Manuais_M104/88-100.pdf",
@@ -6972,11 +6972,11 @@
         "tags": "body_sealing.pdf manutenção geral e fluidos reparação programada vedação carroçaria proteção corrosão"
     },
     {
-        "caminho": "Manuais_M104/Brakes%20ABS.pdf",
-        "nome_arquivo": "Brakes%20ABS.pdf",
+        "caminho": "Manuais_M104/Brakes_ABS.pdf",
+        "nome_arquivo": "Brakes_ABS.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Reparo Programado dos Travões ABS",
-        "tags": "brakes%20abs.pdf manutenção geral e fluidos reparo programado dos travões abs"
+        "tags": "brakes_abs.pdf manutenção geral e fluidos reparo programado dos travões abs"
     },
     {
         "caminho": "Manuais_M104/Brakes.pdf",
@@ -7021,11 +7021,11 @@
         "tags": "data_link.pdf manutenção geral e fluidos 00-b.6/1 electrical troubleshooting manual · model 124 · volume 1 · 10/92model 124"
     },
     {
-        "caminho": "Manuais_M104/E-Class%20Options.pdf",
-        "nome_arquivo": "E-Class%20Options.pdf",
+        "caminho": "Manuais_M104/E-Class_Options.pdf",
+        "nome_arquivo": "E-Class_Options.pdf",
         "categoria": "Componentes Diversos",
         "titulo_descritivo": "Anbauteile / Add-on parts",
-        "tags": "e-class%20options.pdf componentes diversos anbauteile / add-on parts"
+        "tags": "e-class_options.pdf componentes diversos anbauteile / add-on parts"
     },
     {
         "caminho": "Manuais_M104/ETM.pdf",
@@ -7042,11 +7042,11 @@
         "tags": "frontaxle.pdf manutenção geral e fluidos modificações técnicas do eixo dianteiro"
     },
     {
-        "caminho": "Manuais_M104/Function%20Descriptions.pdf",
-        "nome_arquivo": "Function%20Descriptions.pdf",
+        "caminho": "Manuais_M104/Function_Descriptions.pdf",
+        "nome_arquivo": "Function_Descriptions.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Descrições de funções e combinações de modelos",
-        "tags": "function%20descriptions.pdf manutenção geral e fluidos descrições de funções e combinações de modelos"
+        "tags": "function_descriptions.pdf manutenção geral e fluidos descrições de funções e combinações de modelos"
     },
     {
         "caminho": "Manuais_M104/function185.pdf",
@@ -7077,11 +7077,11 @@
         "tags": "g3.pdf manutenção geral e fluidos purga do sistema hidráulico asd"
     },
     {
-        "caminho": "Manuais_M104/General%20Notes.pdf",
-        "nome_arquivo": "General%20Notes.pdf",
+        "caminho": "Manuais_M104/General_Notes.pdf",
+        "nome_arquivo": "General_Notes.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Notas gerais do sistema de ignição",
-        "tags": "general%20notes.pdf manutenção geral e fluidos notas gerais do sistema de ignição"
+        "tags": "general_notes.pdf manutenção geral e fluidos notas gerais do sistema de ignição"
     },
     {
         "caminho": "Manuais_M104/gen_notes.pdf",
@@ -7189,11 +7189,11 @@
         "tags": "mech3.pdf manutenção geral e fluidos injetores de óleo e válvula de retenção"
     },
     {
-        "caminho": "Manuais_M104/Modification%20Notes.pdf",
-        "nome_arquivo": "Modification%20Notes.pdf",
+        "caminho": "Manuais_M104/Modification_Notes.pdf",
+        "nome_arquivo": "Modification_Notes.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Nota de Modificação da Ficha Técnica",
-        "tags": "modification%20notes.pdf manutenção geral e fluidos nota de modificação da ficha técnica"
+        "tags": "modification_notes.pdf manutenção geral e fluidos nota de modificação da ficha técnica"
     },
     {
         "caminho": "Manuais_M104/mod_note185.pdf",
@@ -7308,25 +7308,25 @@
         "tags": "sheets86_97.pdf manutenção geral e fluidos folha de sistema de manutenção"
     },
     {
-        "caminho": "Manuais_M104/Shop%20made%20tools.pdf",
-        "nome_arquivo": "Shop%20made%20tools.pdf",
+        "caminho": "Manuais_M104/Shop_made_tools.pdf",
+        "nome_arquivo": "Shop_made_tools.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Cabo adaptador da embraiagem eletromagnética",
-        "tags": "shop%20made%20tools.pdf manutenção geral e fluidos cabo adaptador da embraiagem eletromagnética"
+        "tags": "shop_made_tools.pdf manutenção geral e fluidos cabo adaptador da embraiagem eletromagnética"
     },
     {
-        "caminho": "Manuais_M104/Special%20Tools.pdf",
-        "nome_arquivo": "Special%20Tools.pdf",
+        "caminho": "Manuais_M104/Special_Tools.pdf",
+        "nome_arquivo": "Special_Tools.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Ferramentas Especiais",
-        "tags": "special%20tools.pdf manutenção geral e fluidos ferramentas especiais"
+        "tags": "special_tools.pdf manutenção geral e fluidos ferramentas especiais"
     },
     {
-        "caminho": "Manuais_M104/Special%20Waste%20Disposal.pdf",
-        "nome_arquivo": "Special%20Waste%20Disposal.pdf",
+        "caminho": "Manuais_M104/Special_Waste_Disposal.pdf",
+        "nome_arquivo": "Special_Waste_Disposal.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Eliminação de resíduos especiais e depósitos de combustível",
-        "tags": "special%20waste%20disposal.pdf manutenção geral e fluidos eliminação de resíduos especiais e depósitos de combustível"
+        "tags": "special_waste_disposal.pdf manutenção geral e fluidos eliminação de resíduos especiais e depósitos de combustível"
     },
     {
         "caminho": "Manuais_M104/SSS.pdf",
@@ -7350,11 +7350,11 @@
         "tags": "steering_gear.pdf manutenção geral e fluidos parafuso de ajuste da caixa de direção"
     },
     {
-        "caminho": "Manuais_M104/Technical%20Modifications.pdf",
-        "nome_arquivo": "Technical%20Modifications.pdf",
+        "caminho": "Manuais_M104/Technical_Modifications.pdf",
+        "nome_arquivo": "Technical_Modifications.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Modificações Técnicas",
-        "tags": "technical%20modifications.pdf manutenção geral e fluidos modificações técnicas"
+        "tags": "technical_modifications.pdf manutenção geral e fluidos modificações técnicas"
     },
     {
         "caminho": "Manuais_M104/tech_mod185.pdf",
@@ -7364,11 +7364,11 @@
         "tags": "tech_mod185.pdf manutenção geral e fluidos modificações técnicas do eixo traseiro"
     },
     {
-        "caminho": "Manuais_M104/Testing%20and%20Repair%20Work.pdf",
-        "nome_arquivo": "Testing%20and%20Repair%20Work.pdf",
+        "caminho": "Manuais_M104/Testing_and_Repair_Work.pdf",
+        "nome_arquivo": "Testing_and_Repair_Work.pdf",
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Esquema de ligação do vácuo",
-        "tags": "testing%20and%20repair%20work.pdf manutenção geral e fluidos esquema de ligação do vácuo"
+        "tags": "testing_and_repair_work.pdf manutenção geral e fluidos esquema de ligação do vácuo"
     },
     {
         "caminho": "Manuais_M104/testing.pdf",
@@ -7388,8 +7388,8 @@
         "caminho": "Manuais_M104/W124SeatRemoval.pdf",
         "nome_arquivo": "W124SeatRemoval.pdf",
         "categoria": "Manutenção Geral e Fluidos",
-        "titulo_descritivo": "W124 Front Seat RemovalBasically the removal of the fronts seats involves removing (4) seat-bolt rails (10mm) and (2) seat-belt tranny-tunnel bolts behind a black plastic cover, and setting up the electric seat for easy maneuverability out of the front doors.Tips & Tricks:Since the USA seats are electrically powered, I do the following:1.adjust seat 80% forward and rear of seat-bottom in the UP (highest from the ﬂoor) position;2.remove the two rear seat-rail bolts (10mm) and the tranny tunnel bolt;3.adjust head-rest to lowest position;4.adjust seat-back so it's folded FORWARD at least 90% from limit;5.adjust seat just enough back to gain access to both the front seat-rail bolts (10mm) and enough room to un-hook and pull back the upholstered cover to gain access to the seat's electronic connectors;6.use a ﬂashlight and small screwdriver to disconnect 3-major plugs, being careful not to pull the tops of the connectors off and loose the pin orientations;7.disconnect two other 2-pole connectors (1-red; 1-black);8.disconnect heater connector if you have heated-seats (4-pole);9.place a towel on the plastic door plate so you don't accidentally scratch the ﬁnish;10.adjust steering wheel so it is in the most forward position for more clearance;11.fold-up driver's armrest;12.gently tip seat forward and maneuver front seats out front door (all the way open!).Hope that helps.:-) neil1988 E36T AMG1993 500E1995 E320 wagon",
-        "tags": "w124seatremoval.pdf manutenção geral e fluidos w124 front seat removalbasically the removal of the fronts seats involves removing (4) seat-bolt rails (10mm) and (2) seat-belt tranny-tunnel bolts behind a black plastic cover, and setting up the electric seat for easy maneuverability out of the front doors.tips & tricks:since the usa seats are electrically powered, i do the following:1.adjust seat 80% forward and rear of seat-bottom in the up (highest from the ﬂoor) position;2.remove the two rear seat-rail bolts (10mm) and the tranny tunnel bolt;3.adjust head-rest to lowest position;4.adjust seat-back so it's folded forward at least 90% from limit;5.adjust seat just enough back to gain access to both the front seat-rail bolts (10mm) and enough room to un-hook and pull back the upholstered cover to gain access to the seat's electronic connectors;6.use a ﬂashlight and small screwdriver to disconnect 3-major plugs, being careful not to pull the tops of the connectors off and loose the pin orientations;7.disconnect two other 2-pole connectors (1-red; 1-black);8.disconnect heater connector if you have heated-seats (4-pole);9.place a towel on the plastic door plate so you don't accidentally scratch the ﬁnish;10.adjust steering wheel so it is in the most forward position for more clearance;11.fold-up driver's armrest;12.gently tip seat forward and maneuver front seats out front door (all the way open!).hope that helps.:-) neil1988 e36t amg1993 500e1995 e320 wagon"
+        "titulo_descritivo": "Remoção dos bancos dianteiros (W124)",
+        "tags": "w124seatremoval.pdf manutenção geral e fluidos remoção dos bancos dianteiros (w124)"
     },
     {
         "caminho": "Manuais_M104/wire_plug.pdf",
@@ -7404,5 +7404,47 @@
         "categoria": "Manutenção Geral e Fluidos",
         "titulo_descritivo": "Electrical Troubleshooting Manual · Model 124· 08/94Model 124",
         "tags": "wiring_index.pdf manutenção geral e fluidos electrical troubleshooting manual · model 124· 08/94model 124"
+    },
+    {
+        "caminho": "Manuais_W124/E-Class_Options.pdf",
+        "nome_arquivo": "E-Class_Options.pdf",
+        "categoria": "W124 - Documentação Geral",
+        "titulo_descritivo": "Opcionais e acessórios da Classe E",
+        "tags": "e-class_options.pdf w124 - documentação geral opcionais e acessórios da classe e"
+    },
+    {
+        "caminho": "Manuais_W124/MY1992w124intro.pdf",
+        "nome_arquivo": "MY1992w124intro.pdf",
+        "categoria": "W124 - Documentação Geral",
+        "titulo_descritivo": "Introdução ao W124 - ano-modelo 1992",
+        "tags": "my1992w124intro.pdf w124 - documentação geral introdução ao w124 - ano-modelo 1992"
+    },
+    {
+        "caminho": "Manuais_W124/MY1992w124.03intro.pdf",
+        "nome_arquivo": "MY1992w124.03intro.pdf",
+        "categoria": "W124 - Documentação Geral",
+        "titulo_descritivo": "Introdução ao W124 - ano-modelo 1992 (parte 03)",
+        "tags": "my1992w124.03intro.pdf w124 - documentação geral introdução ao w124 - ano-modelo 1992 (parte 03)"
+    },
+    {
+        "caminho": "Manuais_W124/PartsList2.pdf",
+        "nome_arquivo": "PartsList2.pdf",
+        "categoria": "W124 - Documentação Geral",
+        "titulo_descritivo": "Catálogo de peças W124 (parte 2)",
+        "tags": "partslist2.pdf w124 - documentação geral catálogo de peças w124 (parte 2)"
+    },
+    {
+        "caminho": "Manuais_W124/PartsList_CE.pdf",
+        "nome_arquivo": "PartsList_CE.pdf",
+        "categoria": "W124 - Documentação Geral",
+        "titulo_descritivo": "Catálogo de peças W124 Coupé (CE)",
+        "tags": "partslist_ce.pdf w124 - documentação geral catálogo de peças w124 coupé (ce)"
+    },
+    {
+        "caminho": "Manuais_W124/ReadMe.pdf",
+        "nome_arquivo": "ReadMe.pdf",
+        "categoria": "W124 - Documentação Geral",
+        "titulo_descritivo": "Leia-me do acervo W124",
+        "tags": "readme.pdf w124 - documentação geral leia-me do acervo w124"
     }
 ]
